@@ -1,5 +1,5 @@
-name: web_view_flutter
-description: A Flutter project to wrap driver.zoonasd.com
+name: driver_webview_app
+description: Flutter WebView app for driver.zoonasd.com with OneSignal
 
 version: 1.0.0+1
 
@@ -10,13 +10,13 @@ dependencies:
   flutter:
     sdk: flutter
 
-  # أحدث نسخة WebView مدعومة
-  webview_flutter: ^4.7.0
+  # WebView حديث متوافق مع Flutter 3.8.5
+  webview_flutter: ^4.5.0
 
-  # OneSignal Flutter
+  # OneSignal لإشعارات الدفع
   onesignal_flutter: ^5.0.4
 
-  # Cupertino icons
+  # أيقونات Cupertino (iOS)
   cupertino_icons: ^1.0.5
 
 dev_dependencies:
